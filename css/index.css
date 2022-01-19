@@ -1,0 +1,79 @@
+html, body {
+  font-family: 'Vazir', sans-serif;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+  text-decoration: none;
+  color: #a8a6a6;
+}
+
+nav a:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.headline {
+  text-align: center;
+  max-width: 700px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headline p {
+  font-weight: 200;
+  font-size: 1.1rem;
+}
+
+.card-body ul {
+  margin-left: 2.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-body ul li {
+  font-weight: 400;
+}
+
+.cards-container {
+  max-width: 900px;
+}
+
+.cards-container .card {
+  -webkit-box-shadow: 0 0 0.5rem 0.02rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 0.5rem 0.02rem rgba(0, 0, 0, 0.3);
+}
+
+footer img {
+  width: 45px;
+  height: 45px;
+}
+
+footer li {
+  text-align: center;
+  line-height: 2rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #464646;
+}
+
+footer a:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+footer h5 {
+  display: inline-block;
+  text-align: center;
+  margin-right: 1.5rem;
+}
+
+.footer-top-line {
+  margin-top: 6rem;
+}
+/*# sourceMappingURL=index.css.map */

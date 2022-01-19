@@ -1,0 +1,81 @@
+html , body {
+    font-family: 'Vazir', sans-serif;
+}
+
+
+.box-shadow {
+    box-shadow: 0 0.25rem 1rem rgba(0,0,0,0.3);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(168, 166, 166);
+}
+
+nav {
+    a:hover {
+        color: rgba($color: #000000, $alpha: 0.6);
+    }
+}
+
+.headline {
+    text-align: center;
+    max-width: 700px;
+    align-items: center;
+
+    p {
+        font-weight: 200;
+        font-size: 1.1rem;
+
+    }
+}
+
+.card-body ul {
+    margin-left: 2.25rem;
+    margin-bottom: 0.5rem;
+    li {
+        font-weight: 400;
+    }
+}
+
+.cards-container {
+    max-width: 900px;
+
+    .card {
+        box-shadow: 0 0 0.5rem 0.02rem rgba(0,0,0,0.3);
+    }
+}
+
+footer{
+
+    img {
+        width: 45px;
+        height: 45px;
+    }
+
+    li {
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(70, 70, 70);
+    }
+
+    a:hover {
+        color: black;
+        border-bottom:1px solid black;
+    }
+
+    h5 {
+        display: inline-block;
+        text-align: center;
+        margin-right: 1.5rem;
+    }
+
+}
+
+.footer-top-line {
+    margin-top: 6rem;
+}
